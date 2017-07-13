@@ -1,0 +1,31 @@
+.contacts {
+  font-size: 1.2em; }
+  .contacts .row:nth-of-type(2) {
+    padding-bottom: 15px; }
+  .contacts b {
+    font-weight: bold; }
+  .contacts p {
+    padding: 15px 0px; }
+    .contacts p:first-of-type {
+      padding: 0px 0 15px; }
+  .contacts .change_lang {
+    padding: 6px 15px;
+    text-align: left; }
+    @media screen and (max-width: 796px) {
+      .contacts .change_lang {
+        text-align: center; } }
+    .contacts .change_lang a:hover {
+      text-decoration: none; }
+    .contacts .change_lang .cnt-icon {
+      margin: 0 10px;
+      width: 20px;
+      height: 15px; }
+      .contacts .change_lang .cnt-icon:hover {
+        transform: scale(1.2); }
+  .contacts .cont_text {
+    padding: 5px 15px; }
+    .contacts .cont_text i {
+      font-size: 0.8em;
+      margin: 0 10px; }
+  .contacts .map {
+    padding: 5px 15px; }

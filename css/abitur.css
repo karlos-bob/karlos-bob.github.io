@@ -1,0 +1,43 @@
+.abitur .row {
+  padding: 15px 0px; }
+
+.abitur .info, .abitur .rule, .abitur .cont, .abitur .map {
+  padding: 0px 15px; }
+
+.abitur .rule {
+  font-size: 1.2em; }
+  .abitur .rule a {
+    text-decoration: underline; }
+  .abitur .rule b {
+    font-weight: bold; }
+  .abitur .rule img {
+    width: 125px;
+    height: 125px;
+    float: left; }
+
+.abitur .info {
+  font-size: 1.1em;
+  line-height: 1.1;
+  text-align: justify; }
+  .abitur .info h3 {
+    font-weight: bold;
+    padding: 10px 0 10px;
+    font-size: 1.3em;
+    text-align: center; }
+  .abitur .info img {
+    margin: 0 auto;
+    padding: 5px 0 15px; }
+  .abitur .info span {
+    display: inline-block;
+    position: relative;
+    right: 0; }
+
+.abitur .cont {
+  font-size: 1.1em; }
+  .abitur .cont b, .abitur .cont h5 {
+    font-weight: bold; }
+  .abitur .cont h5 {
+    padding: 0px 0px; }
+
+.abitur .map {
+  text-align: center; }

@@ -1,0 +1,64 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media (max-width: 767px) {
+  .container {
+    margin: 0; }
+  header #search-form {
+    display: none; }
+  header .lowbar {
+    padding-bottom: 0 !important;
+    padding-left: 0;
+    padding-right: 0; }
+    header .lowbar .logo {
+      float: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: row; }
+      header .lowbar .logo .xai_logo, header .lowbar .logo .rtsla_logo {
+        margin: 0 8px; }
+    header .lowbar #menu {
+      margin-top: 30px;
+      background-color: #8f0b27;
+      padding: 10px 15px; }
+      header .lowbar #menu nav.navbar {
+        background-color: inherit; }
+        header .lowbar #menu nav.navbar ul.navbar-nav {
+          margin-top: 10px; }
+          header .lowbar #menu nav.navbar ul.navbar-nav li.dropdown ul.dropdown-menu {
+            max-width: 100%; }
+            header .lowbar #menu nav.navbar ul.navbar-nav li.dropdown ul.dropdown-menu li a {
+              font-size: 0.9rem; }
+  .inner-wrapper section.slider .owl-nav {
+    display: none !important; }
+  .inner-wrapper section.slider .owl-dots .owl-dot span {
+    height: 20px !important;
+    width: 20px !important; }
+  .inner-wrapper section.slider .slider-item .carousel-info {
+    height: 360px !important; }
+    .inner-wrapper section.slider .slider-item .carousel-info table {
+      font-size: 0.96rem !important; }
+  .inner-wrapper section.slider .slider-item .img-side {
+    position: relative; }
+    .inner-wrapper section.slider .slider-item .img-side a img {
+      width: 100%;
+      height: 280px !important; }
+  .inner-wrapper section.news .news-item {
+    padding-top: 15px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+    .inner-wrapper section.news .news-item a.news-teaser img.img-fluid {
+      max-width: 100%;
+      height: auto !important; }
+  footer .footer-wrap .map-footer {
+    display: none; } }
+
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */

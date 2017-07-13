@@ -1,0 +1,24 @@
+section.faculty {
+  line-height: 1.3em; }
+  section.faculty p.image-block img {
+    margin: 15px;
+    height: 340px;
+    width: 530px; }
+  section.faculty p.hpic1 {
+    float: right; }
+  section.faculty p.hpic2 {
+    float: left; }
+  section.faculty p.hpic3 {
+    float: right; }
+  section.faculty h1 {
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 2em; }
+  section.faculty p {
+    font-size: 1.23em; }
+    section.faculty p span {
+      font-weight: bold; }
+  section.faculty ul.studyways li {
+    font-size: 1.23em;
+    font-weight: bold;
+    text-decoration: dotted; }

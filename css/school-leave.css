@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* 
+	---!!!---
+Большая часть стилей в файле 
+	images/school-leave.css 
+	---!!!---
+*/
+.tbl {
+  width: 100%;
+  margin: 10px 0px; }
+  .tbl tr {
+    background-color: #faff6e; }
+    .tbl tr:first-child {
+      background-color: #ff6e6e; }
+    .tbl tr:last-child {
+      background-color: #75ff6e; }
+    .tbl tr td {
+      border: 1px solid #000;
+      padding: 3px; }
+
+.listOfdoc {
+  border: 1px solid #8f8f8f;
+  padding: 20px 10px;
+  margin: 0px 15px; }
+  .listOfdoc h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px 0px; }
+  .listOfdoc ul {
+    list-style-type: disc;
+    list-style-position: inside; }
+    .listOfdoc ul li {
+      margin-left: 25px; }
+  .listOfdoc span {
+    font-style: italic; }
+
+.info b {
+  font-weight: bold; }
+
+.info .blue {
+  color: #0c51a6; }
