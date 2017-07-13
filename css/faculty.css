@@ -1,9 +1,20 @@
 section.faculty {
   line-height: 1.3em; }
   section.faculty p.image-block img {
-    margin: 15px;
     height: 340px;
-    width: 530px; }
+    max-width: 530px; }
+@media (max-width: 767px) {
+  section.faculty p.image-block {
+    text-align: center;
+    float: none!important;
+    overflow: hidden;
+    width: 100%;
+  }
+  section.faculty p.image-block img {
+    width: 100%;
+    height: auto;
+  }
+}
   section.faculty p.hpic1 {
     float: right; }
   section.faculty p.hpic2 {
@@ -15,7 +26,8 @@ section.faculty {
     font-weight: bold;
     font-size: 2em; }
   section.faculty p {
-    font-size: 1.23em; }
+    font-size: 1.23em;
+    margin: 10px 0}
     section.faculty p span {
       font-weight: bold; }
   section.faculty ul.studyways li {
