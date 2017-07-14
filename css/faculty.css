@@ -2,7 +2,9 @@ section.faculty {
   line-height: 1.3em; }
   section.faculty p.image-block img {
     height: 340px;
-    max-width: 530px; }
+    max-width: 530px;
+    margin: 0 15px;
+  }
 @media (max-width: 767px) {
   section.faculty p.image-block {
     text-align: center;
