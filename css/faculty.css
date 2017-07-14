@@ -15,6 +15,7 @@ section.faculty {
   section.faculty p.image-block img {
     width: 100%;
     height: auto;
+    margin: 0;
   }
 }
   section.faculty p.hpic1 {
